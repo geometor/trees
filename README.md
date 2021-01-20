@@ -89,26 +89,22 @@ For generating all distinct trees with n nodes, the computational complexity is 
 <a id="1">[1]</a> 
 Journal of Graph Algorithms and Applications. Monotone Drawings of Graphs. 
 Patrizio Angelini, Enrico Colasante, Giuseppe Di Battista,Fabrizio Frati,Maurizio Patrignani
-
-![paper](https://www.emis.de/journals/JGAA/accepted/2012/Angelini+2012.16.1.pdf)
+[paper](https://www.emis.de/journals/JGAA/accepted/2012/Angelini+2012.16.1.pdf)
 
 <a id="2">[2]</a> 
 On Monotone Drawings of Trees
 Philipp Kindermann, Andre Schulz, Joachim Spoerhase, Alexander Wolff
-
-![paper](https://arxiv.org/pdf/1505.01410.pdf)
+[paper](https://arxiv.org/pdf/1505.01410.pdf)
 
 <a id="3">[3]</a> 
 Optimal Monotone Drawings of Trees
 Dayu He, Xin He
-
-![paper](https://arxiv.org/pdf/1604.03921v1.pdf)
+[paper](https://arxiv.org/pdf/1604.03921v1.pdf)
 
 <a id="4">[4]</a> 
 SIMPLE COMPACT MONOTONE TREE DRAWINGS 
 ANARGYROS OIKONOMOU, ANTONIOS SYMVONIS
-
-![paper](https://arxiv.org/pdf/1708.09653.pdf)
+[paper](https://arxiv.org/pdf/1708.09653.pdf)
 
 
 
