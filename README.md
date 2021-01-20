@@ -8,7 +8,6 @@ Monotone Drawings of Graphs is a new standard of graph drawing, introduced by An
 A monotone drawing of a graph G is a straight-line drawing of G, s.t for every pair of nodes, there exists a path that is monotone in some direction (i.e. left-to-right). Several applications of monotone drawings includes optimal trajectory planning, map rotations and rearrangement, electronics design etc.
 
 
-
 The main topics of interest is finding algorithms that reduce the size of the drawing. 
 
 **Example  (from Angelini et al. paper) :**
@@ -20,8 +19,6 @@ The main topics of interest is finding algorithms that reduce the size of the dr
 We can see how much better understanding of the graph we get from the monotone drawing. 
 
 ![mon](https://i.ibb.co/DzPNh1F/mon.png)
-
-Monotone Drawings are based on the fact that humans have a specifiq process of analyzing visual information. Tt is shown that visualizations with high quality characteristics
 
 **Practical Example 2 (from our implementation):**
 
@@ -50,12 +47,23 @@ This is why Monotone Drawings of Trees receeived much attention from researchers
 In my thesis. I created a database from all distinct rooted trees with up to 15 nodes. I then implemented almost all of the known algorithms for monotone drawings of trees using Python and tested them on the database in order to analyze and compare their results in terms of grid size.
 Also, i made a tool using HTML-JS-PHP-SQL-Python where a user can do one of the following tasks:
 
-- Use and visualize monotone drawing algorithms for an input tree
-- Create trees by entering their parethesis representation
-- Import/Export graphml files
-- Random Tree Generation
-- Visual comparison of different algorithm grid-size utilization
-- Access to the database (Retrieve and visualize data)
+- **Use and visualize monotone drawing algorithms for an input tree**
+
+  ![main page](https://i.ibb.co/4Ptx5f0/Capture001.png)
+  
+- **Create trees by entering their parethesis representation**
+
+
+- **Import/Export graphml files**
+
+- **Random Tree Generation**
+
+- **Visual comparison of different algorithm grid-size utilization**
+  ![comparison](https://i.ibb.co/7bb5YNX/algorithm-comparison.png)
+  
+- **Access to the database (Retrieve and visualize data)**
+  ![databsae](https://i.ibb.co/WvDDm2t/Capture14.png)
+  ![database2](https://i.ibb.co/fDn4X3z/Capture15.png)
 
 ### The implemented algorithms with their grid size utilization can be seen below:
 
@@ -69,8 +77,6 @@ Algorithm papers:
 ![algorithms](https://i.ibb.co/gTRdn2r/algorithms.png)
       
       
-      
-
 Most of the algorithms use computational geometry and number theory for generating the "angles" assigned the edges of the graph. In particular, the Stern-Brocot Tree and the Farey Sequences are mostly used. The alogorithms of Oikonomou-Symvonis are the only ones not relying on number theory. They use a clever algorithmic way of assigning angles using basic geometry and they are the easiest to understand and implement. 
 
 ## Tree Generation
@@ -82,6 +88,14 @@ For a random tree we can compute a random valid string of parenthesis. The compl
 For generating all distinct trees with n nodes, the computational complexity is   <img src="https://latex.codecogs.com/png.latex?\inline&space;O(\frac{4^{n}}{n^{1.5}})" title="O(\frac{4^{n}}{n^{1.5}})" />
 
 
+
+## Results
+
+### Comparison of generated data with each algorithm's theoretical grid size.
+
+![results](https://i.ibb.co/FWLLGMM/res.png)
+
+![results graph](https://i.ibb.co/3SJhpZm/Picture2.png)
 
 
 ## References
