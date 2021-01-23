@@ -1,4 +1,4 @@
-# Graph-Drawing
+# Graph-Drawing-Algorithms
 
 This repository contains several graph drawing tools i made while working on my thesis for completing the BSc & MSc integrated diploma in Applied Mathematics and Physical Sciences @ National Technical University of Athens.  
 
@@ -33,6 +33,13 @@ Ternary tree with three levels, using three of the algorithms
 
 
 ## Introduction 
+
+From Wikipedia:
+> In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph
+
+Tree Example:
+
+![tree](https://i.ibb.co/rvTMb1S/unnamed0.png)
 
 Every tree can be represented as a balanced set of open and closed parenthesis. The order of the nodes is also maintained. An example can be seen below. Starting from the root, every time we see an open parenthesis we move downwards and create a new node, else we go backwards. And we do this in counter-clockwise direction.
 
