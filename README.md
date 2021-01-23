@@ -54,14 +54,12 @@ This is why Monotone Drawings of Trees receeived much attention from researchers
 In my thesis. I created a database from all distinct rooted trees with up to 15 nodes. I then implemented almost all of the known algorithms for monotone drawings of trees using Python and tested them on the database in order to analyze and compare their results in terms of grid size.
 Also, i made a tool using HTML-JS-PHP-SQL-Python where a user can do one of the following tasks:
 
-- **Use and visualize monotone drawing algorithms for an input tree**
+- **Use and visualize monotone drawing algorithms for an input tree **
 
   ![main page](https://i.ibb.co/4Ptx5f0/Capture001.png)
-  
-- **Create trees by entering their parethesis representation**
+  ![algos](https://i.ibb.co/qM00fps/algos.png)
 
-
-- **Import/Export graphml files**
+  - **Import/Export graphml files**
 
 - **Random Tree Generation**
 
