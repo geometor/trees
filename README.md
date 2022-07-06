@@ -59,7 +59,7 @@ Also, i made a tool using HTML-JS-PHP-SQL-Python where a user can do one of the 
   ![main page](https://i.ibb.co/4Ptx5f0/Capture001.png)
   ![algos](https://i.ibb.co/qM00fps/algos.png)
 
-  - **Import/Export graphml files**
+- **Import/Export graphml files**
 
 - **Random Tree Generation**
 
