@@ -17,8 +17,8 @@ def isvalid(parenth):
 
 	''' Checks if a string of parenthesis is balanced '''
 
-	left=right = 0
-	if parenth[0]==')':
+	left = right = 0
+	if parenth[0] == ')':
 		return False
 	for char in parenth:
 		if char == '(':
@@ -27,7 +27,7 @@ def isvalid(parenth):
 			right += 1
 		if right > left:
 			return False
-	if right==left:	
+	if right == left:	
 		return True
 	else:
 		return False	
@@ -43,7 +43,7 @@ def genParenLazy(n):
 	Complexity: Brute force method, takes O(2^(2n)) to create all combinations and O(n) to check them so O(n*2*(2n)) time and total space
 	''' 
 	if n<0:
-			err='Input must be a positive integer'
+			err = 'Input must be a positive integer'
 			return err			
 	perms = set(''.join(p) for p in permutations('(' * n + ')' * n))
 	return [s for s in perms if isvalid(s)]
@@ -52,9 +52,6 @@ def genParenLazy(n):
 #print(genParenLazy(3))  
 #Result : ['(())()', '()()()', '((()))', '(()())', '()(())']
 #------------------------------------------------------------------------------------------------------------------------
-
-
-
 
 def genParenFast(n):
 	''' 
@@ -67,10 +64,10 @@ def genParenFast(n):
 	Complexity: O(4^n / n^1.5 ) (See Catalan numbers for better understanding)
 
 	'''
-	n=n-1
+	n = n-1
 
-	if n<=0:
-		err='Input must be a positive integer'
+	if n <= 0:
+		err = 'Input must be a positive integer'
 		return err
 
 	res = []
@@ -98,7 +95,7 @@ def random_tree(n):
 #  Output: parenthesis representation of the tree	
 # Complexity: O(n^1.5)
 
-	i=0
+	i = 0
 	def random_gen(n):
 		chars = ['(', ')'] * (n-1)
 		random.shuffle( chars )
@@ -125,38 +122,38 @@ def paren_to_nxgraph(parenthesis):
 
 	letters = list(ascii_uppercase) + [char1+char2 for char1 in ascii_uppercase for char2 in ascii_uppercase]
 
-	if  isvalid(parenthesis)==False:
-		message='Not a valid string of parenthesis'
+	if  isvalid(parenthesis) == False:
+		message = 'Not a valid string of parenthesis'
 		return message
 	else:	
-		g=nx.Graph()
-		parent=letters.pop(0)
-		child=0
-		index=0
+		g = nx.Graph()
+		parent = letters.pop(0)
+		child = 0
+		index = 0
 		g.add_node('A')
-		nodes=[]
+		nodes = []
 		nodes.append('A')
-		open=close=0
-		parentgraph=dict()
+		open = close = 0
+		parentgraph = dict()
 		parentgraph.update({'A':'A'})
 		for paren in parenthesis:
-			if paren=='(':
+			if paren == '(':
 				index+=1
-				child=letters.pop(0)
+				child = letters.pop(0)
 				g.add_node(child)
 				nodes.append(child)
 				g.add_edge(parent,child)
 				parentgraph.update({child:parent})
-				parent=nodes[index]
+				parent = nodes[index]
 				open+=1
 			else:
-				parent=parentgraph[child]
-				child=parentgraph[child]
+				parent = parentgraph[child]
+				child  = parentgraph[child]
 				close+=1
-			if open==close:
-				open=0
-				close=0
-				parent='A'
+			if open == close:
+				open   = 0
+				close  = 0
+				parent = 'A'
 		return g
 
 #------------------------------------------------------------------------------------------------------------------------
