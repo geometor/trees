@@ -10,12 +10,6 @@ This repository contains several graph drawing tools i made while working on my 
 Monotone drawings of graphs is a relatively new method for visualizing graphs. A monotone drawing of a graph G is a straight-line drawing of G in a grid, where for every pair of nodes, there is a path between them which is monotone with respect to some direction. The subject of this diploma thesis is the implementation and experimental evaluation of certain algorithms for monotone drawing of a special class of graphs, trees.
 We first show that all rooted trees can be represented with balanced strings of parenthesis and we describe the procedure through which this is done. Using this fact, we describe two algorithms for generating rooted trees exhaustively and randomly. For the implementations, we developed an interactive tool which applies the algorithms to a user selected tree, and visualizes their drawings. For the evaluation part, we generate a set of distinct rooted trees, we apply the algorithms to them and we save the grid dimensions of their drawings in a database. Next, we analyze the data and we compare them with the theoretical grid size of the algorithms, in order to compute the maximum portion each one of them used. 
 
-Monotone Drawings of Graphs is a new standard of graph drawing, introduced by Angelini et al. [[1]](#1).
-A monotone drawing of a graph G is a straight-line drawing of G, s.t for every pair of nodes, there exists a path that is monotone in some direction (i.e. left-to-right). Several applications of monotone drawings includes optimal trajectory planning, map rotations and rearrangement, electronics design etc.
-
-
-The main topics of interest is finding algorithms that reduce the size of the drawing. 
-
 **Example  (from Angelini et al. paper) :**
 
 ![ex](https://i.ibb.co/x8fhRTT/angelini-et-al.png)
