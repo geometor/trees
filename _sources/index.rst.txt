@@ -1,15 +1,14 @@
 :site_title: Constructive Dependency Trees
 
+.. container:: author-overline
+
+   semantic digital archive • symbolic engine
+
 =============================
 Constructive Dependency Trees
 =============================
 
-Graph drawing, monotone layout algorithms, and constructive dependency structures for rooted trees and geometric ancestry in the GEOMETOR ecosystem.
-
-Overview
---------
-
-The ``trees`` module studies monotone graph drawing algorithms and parent-child dependency trees. Every rooted tree can be represented as a balanced parenthesis sequence, mapped onto grid coordinates, and traversed monotonically with respect to geometric directions.
+``geometor/trees`` is the graph-drawing and lineage engine of the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive. It studies monotone planar layout algorithms and parent-child dependency trees, mapping balanced parenthesis sequences onto geometric coordinate grids where constructive lineages can be traversed with directional monotonicity.
 
 Core Algorithms
 ---------------
