@@ -13,9 +13,9 @@ Mission
 Capabilities & Interactive Docs
 -------------------------------
 
-- **`Constructive Dependency Trees <https://geometor.github.io/trees/>`_** — Monotone graph drawing algorithms and constructive dependency structures.
-- **`Monotone Tree Layouts <https://geometor.github.io/trees/>`_** — Implementations of Angelini et al., He & He, and Stern–Brocot angle-assignment algorithms for compact grid embeddings.
-- **`Parenthesis Encodings <https://geometor.github.io/trees/>`_** — Canonical balanced parenthesis string encodings and exhaustive generation of distinct rooted trees.
+- `Constructive Dependency Trees <https://geometor.github.io/trees/>`_ — Monotone graph drawing algorithms and constructive dependency structures.
+- `Monotone Tree Layouts <https://geometor.github.io/trees/>`_ — Implementations of Angelini et al., He & He, and Stern–Brocot angle-assignment algorithms for compact grid embeddings.
+- `Parenthesis Encodings <https://geometor.github.io/trees/>`_ — Canonical balanced parenthesis string encodings and exhaustive generation of distinct rooted trees.
 
 Repository Contents
 -------------------
