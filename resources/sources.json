@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/trees",
+  "rights_category": "reference-paper",
+  "sources": [
+    {
+      "id": "evangelidakis-monotone-thesis",
+      "title": "Implementation and Experimental Evaluation of Monotone Drawing Algorithms",
+      "author": "Leandros Evangelidakis",
+      "year": "2018",
+      "era": "Academic Thesis",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://geometor.github.io/trees/",
+      "local_path": "resources/pdfs/MonotoneDrawingAlgorithms_EvangelidakisLeandros_Thesis.pdf",
+      "pages": 60,
+      "publisher": "National Technical University of Athens (NTUA)",
+      "rights": "Academic reference paper (git-ignored local copy)",
+      "excerpt": "60-page NTUA diploma thesis informing monotone tree drawing algorithms."
+    }
+  ]
+}
