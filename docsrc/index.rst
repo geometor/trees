@@ -8,6 +8,10 @@
 Constructive Dependency Trees
 =============================
 
+.. image:: _static/medallion.svg
+   :alt: Constructive Dependency Trees Medallion
+   :class: repo-medallion-hero
+
 ``geometor/trees`` is the graph-drawing and lineage engine of the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive. It studies monotone planar layout algorithms and parent-child dependency trees, mapping balanced parenthesis sequences onto geometric coordinate grids where constructive lineages can be traversed with directional monotonicity.
 
 Core Algorithms
